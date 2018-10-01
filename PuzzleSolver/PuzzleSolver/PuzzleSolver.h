@@ -5,6 +5,8 @@
 
 #include <iostream>
 #include <vector>
+#include <queue>
+#include <array>
 
 class Node {
 private:

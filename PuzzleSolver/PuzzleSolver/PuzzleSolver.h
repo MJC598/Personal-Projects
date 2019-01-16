@@ -11,6 +11,7 @@
 class Node {
 private:
 	int id;
+	int display[4][4];
 	Node *parent;
 	vector<Node *>children;
 

@@ -21,7 +21,22 @@ int main(){
 						   {9,10,11,12},
 						   {13,14,15,0} };
 
-
+	Node test1 = new Node();
+	test1->id = 1;
+	test1->parent = NULL;
+	test1->display = testCase1;
+	test1->children = NULL;
+	Node solution = astar(test1, solution);
 
 	return 0;
 }
+
+//must free Node here to return new Node so there isn't memory leaks
+Node astar(Node test1, int solution[4][4]){
+	if(test1 == NULL || solution == NULL){
+		return NULL;
+	}
+	Node answer = new Node();
+}
+
+
